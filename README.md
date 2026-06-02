@@ -1,2 +1,2 @@
 # cvsofts-ocsimulator
-My Office Center simulator. Thanks Allan for time spend together.
+Office Center simulator : thanks Allan for the time spent together.  
