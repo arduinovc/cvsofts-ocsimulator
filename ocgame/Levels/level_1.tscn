@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://msmnro7bilsn"]
+
+[ext_resource type="PackedScene" uid="uid://1hldrkkawyts" path="res://Assets/ocsimulator_floor.glb" id="1_n0qsc"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dilhk"]
+sky_top_color = Color(0.697016, 0.24854803, 0.5532426, 1)
+
+[sub_resource type="Sky" id="Sky_3mhv4"]
+sky_material = SubResource("ProceduralSkyMaterial_dilhk")
+
+[sub_resource type="Environment" id="Environment_rf6l5"]
+background_mode = 2
+sky = SubResource("Sky_3mhv4")
+
+[node name="Level_1" type="Node3D" unique_id=2112211873]
+
+[node name="ocsimulator_floor" parent="." unique_id=1635961195 instance=ExtResource("1_n0qsc")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=410106992]
+transform = Transform3D(0.99994594, -0.01039724, -0.00026366248, 0.008883879, 0.8406685, 0.5414772, -0.0054082153, -0.54145026, 0.84071535, -0.123289585, 3.9317677, 9.109738)
+fov = 63.705738
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=218688927]
+transform = Transform3D(0.7670706, -0.40378156, 0.49856114, 0.20771624, 0.8915526, 0.40247723, -0.6070064, -0.20516917, 0.7677558, 6.254247, -0.7860887, 7.409926)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=638209666]
+environment = SubResource("Environment_rf6l5")

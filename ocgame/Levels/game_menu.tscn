@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cyuh8s8m2nkhp"]
+
+[ext_resource type="Texture2D" uid="uid://vvxvnmagcfvv" path="res://Assets/ocsimulator_landing.png" id="1_u0omv"]
+[ext_resource type="Texture2D" uid="uid://bhnrqo76mth75" path="res://Icons/ocsimulator.png" id="2_qpeeu"]
+
+[node name="Control" type="Control" unique_id=136981742]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="OcsimulatorLanding" type="Sprite2D" parent="." unique_id=458703908]
+position = Vector2(573.5, 323.99997)
+scale = Vector2(0.41212338, 0.4345479)
+texture = ExtResource("1_u0omv")
+
+[node name="Ocsimulator" type="Sprite2D" parent="." unique_id=2112259149]
+position = Vector2(573, 208)
+scale = Vector2(0.13183594, 0.13183594)
+texture = ExtResource("2_qpeeu")
