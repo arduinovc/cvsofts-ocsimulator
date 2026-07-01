@@ -1,8 +1,6 @@
 # CVSofts Office Center Simulator
 
-<pre>
-
-                                                                                                              
+<pre>                                                                                                             
                             AW          ,,                                ,,                                
   .g8""8q.     .g8"""bgd   ,M'.M"""bgd  db                              `7MM           mm                   
 .dP'    `YM. .dP'     `M   MV,MI    "Y                                    MM           MM                   
@@ -13,8 +11,6 @@ MM.      ,MP MM.         MV  .     `MM  MM    MM    MM    MM  MM    MM    MM   ,
   `"bmmd"'     `"bmmmd',M'   P"Ybmmd" .JMML..JMML  JMML  JMML.`Mbod"YML..JMML.`Moo9^Yo.`Mbmo`Ybmd9'.JMML.   
                        MV                                                                                   
                       AW                                                                                    
-
-  
 </pre>
 
 Office Center simulator : thanks Allan for the time spent together.  
